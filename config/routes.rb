@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :friends
   match '/about', to: 'about#index', :via => 'get' 
   root 'home#index'
   # get 'home/index'
