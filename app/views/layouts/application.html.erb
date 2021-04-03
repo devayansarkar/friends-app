@@ -16,7 +16,13 @@
 
 <body>
     <%= render 'partials/header' %>
-    <p id="notice" class="class="alert alert-primary""><%= notice %></p>
+    <% if notice %>
+        <div class="alert alert-primary" role="alert"><%= notice %></div>
+    <% end %>
+    <% if alert %>
+        <div class="alert alert-danger" role="alert"><%= alert %></div>
+    <% end %>
+    
     <div class="container">
     <br/>
         <%= yield %>
