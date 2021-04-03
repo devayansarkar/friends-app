@@ -1,7 +1,7 @@
 # README
 
 ## Tutorial
-Following this [tutorial] (https://youtu.be/fmyvWz5TUWg)
+Following this [tutorial](https://youtu.be/fmyvWz5TUWg)
 
 
 This README would normally document whatever steps are necessary to get the
