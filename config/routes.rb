@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :friends
   match '/about', to: 'about#index', :via => 'get' 
   root 'home#index'
