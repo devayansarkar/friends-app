@@ -18,9 +18,8 @@
   <tbody>
     <% @friends.each do |friend| %>
       <tr>
-        <td><%= friend.first_name %></td>
-        <td><%= friend.last_name %></td>
-        <td><%= friend.email %></td>
+        <td><%= link_to friend.first_name+ ' '+friend.last_name, friend %></td>
+        <td><%= friend.email %></td> 
         <td><%= friend.phone %></td>
         <td><%= friend.twitter %></td>
         <td><%= friend.user_id %></td>
